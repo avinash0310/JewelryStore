@@ -13,7 +13,7 @@ class Header extends React.Component {
     componentDidUpdate(prevProps) {
         if (this.props.loginInfo.payload && prevProps.loginInfo.payload !== this.props.loginInfo.payload && this.props.loginInfo.payload.hasOwnProperty(TOKEN)) {
             this.setState({
-                userName: this.props.loginInfo.payload.customer.userName
+                userName: this.props.loginInfo.payload.customer.customerType
             });
         };
     };
@@ -22,7 +22,7 @@ class Header extends React.Component {
         return (
             <div>
                 <h1>Welcome to Jewelry Store</h1>
-                <label>{this.state.userName !== "" ? "Welcome : " + this.state.userName : ""}</label>
+                <label>{this.state.userName !== "" ? "Welcome : " + this.state.userName + " User" : ""}</label>
             </div>
         );
     };
