@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JewelryStore.API", "JewelryStore.API.csproj", "{068B04FC-BE26-4D06-8356-26652D156A29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JewelryStore.BL", "..\JewelryStore.Business\JewelryStore.BL.csproj", "{59111D69-EDB5-471B-9463-19BF4D25FEBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JewelryStore.DAL", "..\JewelryStore.Repository\JewelryStore.DAL.csproj", "{11946D4F-BC0C-4B6B-AAC4-30B971D2B99B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JewelryStore.Common", "..\JewelryStore.Common\JewelryStore.Common.csproj", "{C7759C5A-46A4-4EAC-B332-16C6A53559F1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JewelryStore.Web(1)", "..\JewelryStore.Web\", "{5DEF3008-6653-4EAC-988D-FE05CCBA7BE3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56664"
+		Debug.AspNetCompiler.PhysicalPath = "..\JewelryStore.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56664\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56664"
+		Release.AspNetCompiler.PhysicalPath = "..\JewelryStore.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56664\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56664"
+		SlnRelativePath = "..\JewelryStore.Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelryStore.Test", "..\JewelryStore.Test\JewelryStore.Test.csproj", "{0873DAA4-4F19-4389-A3B6-97684E88A4A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{068B04FC-BE26-4D06-8356-26652D156A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068B04FC-BE26-4D06-8356-26652D156A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068B04FC-BE26-4D06-8356-26652D156A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068B04FC-BE26-4D06-8356-26652D156A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59111D69-EDB5-471B-9463-19BF4D25FEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59111D69-EDB5-471B-9463-19BF4D25FEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59111D69-EDB5-471B-9463-19BF4D25FEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59111D69-EDB5-471B-9463-19BF4D25FEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11946D4F-BC0C-4B6B-AAC4-30B971D2B99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11946D4F-BC0C-4B6B-AAC4-30B971D2B99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11946D4F-BC0C-4B6B-AAC4-30B971D2B99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11946D4F-BC0C-4B6B-AAC4-30B971D2B99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7759C5A-46A4-4EAC-B332-16C6A53559F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7759C5A-46A4-4EAC-B332-16C6A53559F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7759C5A-46A4-4EAC-B332-16C6A53559F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7759C5A-46A4-4EAC-B332-16C6A53559F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEF3008-6653-4EAC-988D-FE05CCBA7BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEF3008-6653-4EAC-988D-FE05CCBA7BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEF3008-6653-4EAC-988D-FE05CCBA7BE3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEF3008-6653-4EAC-988D-FE05CCBA7BE3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0873DAA4-4F19-4389-A3B6-97684E88A4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0873DAA4-4F19-4389-A3B6-97684E88A4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0873DAA4-4F19-4389-A3B6-97684E88A4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0873DAA4-4F19-4389-A3B6-97684E88A4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12082388-1229-428B-8F85-F9B838C5D8B7}
+	EndGlobalSection
+EndGlobal
